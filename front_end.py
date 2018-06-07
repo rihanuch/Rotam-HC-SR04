@@ -273,7 +273,7 @@ class Graph(QDialog):
         for info in data:
             axes.plot(info[0], info[1], 'o')
 
-        # actualiza
+        # actualiza el grafico
         self.canvas.draw()
 
 
